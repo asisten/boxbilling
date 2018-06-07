@@ -654,7 +654,7 @@ class Registrar_Adapter_Resellerclub extends Registrar_AdapterAbstract
         if($this->isTestEnv()) {
             return 'http://test.httpapi.com/api/';
         }
-        return 'https://httpapi.com/api/';
+        return 'https://domaincheck.httpapi.com/api/';
     }
 
     /**
